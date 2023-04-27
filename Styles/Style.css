@@ -1,0 +1,35 @@
+﻿body
+{
+    background-color: lightblue;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px 50px;
+}
+
+.container {
+    text-align: right;
+    line-height: 20%;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+hr {
+    border-style: solid;
+    border-width:2px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+.tab4 {
+    tab-size:8;
+}
+
+img {
+    border-radius: 50%;    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
