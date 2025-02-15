@@ -165,3 +165,45 @@ span > svg {
   font-weight: 600;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 5px;
+  }
+  .headerTop, .headerBottom {
+    width: 95%;    
+  }
+  .heading h1 {
+    font-size: x-large;
+  }
+  .subHeading p {
+    font-size: large;
+    margin-top: 10px;
+  }
+  .wrapper {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+  .skills {
+    width: 100%;
+    border: none;    
+  }
+  .quals p {
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    margin:auto;
+    text-align: center;
+  }
+  button {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .profile, .expertise {
+    padding: 5px;
+  }
+}
